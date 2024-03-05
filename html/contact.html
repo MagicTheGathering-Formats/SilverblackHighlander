@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Silverblack Highlander</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles-webform.css">
+    <link rel="stylesheet" href="../styles/styles-links.css">
+
+</head>
+<body>
+
+<header>
+    <h1>Silverblack Highlander</h1>
+    <nav>
+        <ul>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="points.html">Points</a></li>
+            <li><a href="updates.html">Updates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="contact-section">
+
+    <h2>Contact Section</h2>
+    <p>This is the contact section of your webpage.</p> 
+
+    <!-- <div class="form-container"> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="60f8c68b-8e8f-4876-b55f-336d00db6701">
+        
+            <label for="name" >Name</label>
+            <input type="text" name="name" required>
+            <label for="email" >eMail</label>
+            <input type="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" required></textarea>
+            <!-- <div class="h-captcha" data-captcha="true"></div> -->
+            <button type="submit">Send</button>
+        </form>
+    <!-- </div> -->
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
+</body>
+</html>
