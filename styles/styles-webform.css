@@ -1,0 +1,48 @@
+/* styles-webform */
+form {
+    max-width: 400px;
+    margin: 20px;
+}
+
+/* CSS for input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #111;
+    background-color: #B8C0CB;
+    font-family: Arial, sans-serif;
+}
+
+/* CSS for submit button */
+button[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #B8C0CB;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for hCaptcha */
+/* 
+.h-captcha {
+    margin-bottom: 15px;
+}
+ */
