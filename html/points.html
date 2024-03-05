@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points - Silverblack Highlander</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles-table.css">
+    <link rel="stylesheet" href="../styles/styles-links.css">
+
+</head>
+<body>
+
+<header>
+    <h1>Silverblack Highlander</h1>
+    <nav>
+        <ul>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="points.html">Points</a></li>
+            <li><a href="updates.html">Updates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="points-section">
+    <h2>Points</h2>
+    <p>Decks are limited to a maximum of 5 points from the points list.</p> 
+
+    <div class="filter-container">
+        <input type="text" id="filterInput" placeholder="Search for a card...">
+    </div>
+
+    <div id="table-container">
+        <table class="table table-sortable" id="table-id">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0,'table-id')">Card Name</th>
+                    <th onclick="sortTable(1,'table-id')">Points</th>
+                    <th onclick="sortTable(2,'table-id')">Color</th>
+                    <th onclick="sortTable(3,'table-id')">Group</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+<!--                 <tr>
+                    <td>Ancestral Recall</td>
+                    <td>8</td>
+                    <td>Blue</td>
+                </tr>
+                <tr>
+                    <td>Black Lotus</td>
+                    <td>7</td>
+                    <td>Colorless</td>
+                </tr>
+                <tr>
+                    <td>Demonic Tutor</td>
+                    <td>3</td>
+                    <td>Black</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
+
+<script src="../javascript/cardData.js"></script>
+<script src="../javascript/filerTable.js"></script>
+<script src="../javascript/sortTable.js"></script>
+
+</body>
+</html>
