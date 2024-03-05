@@ -1,0 +1,15 @@
+/* Style for normal links */
+a {
+    color: #ddd; /* Link color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Style for hover state */
+a:hover {
+    color: #999; /* Hover color */
+}
+
+/* Style for active state */
+a:active {
+    color: #333; /* Active color */
+}
