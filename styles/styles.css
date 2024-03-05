@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #222; /* Darker header background color */
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+/*****************************************/
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 10px;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*****************************************/
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: left;
+}
+
+/*****************************************/
+/* Filter Container Style */
+.filter-container {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left; /* Center-align its children */
+}
+
+/* Filter Styles */
+#filterInput {
+    background-color: #555; /* Darker background color for the search bar */
+    color: #fff; /* Bright text color for the search bar */
+    max-width: 200px; /* Adjust the value to your desired width */
+}
+
+/*****************************************/
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
