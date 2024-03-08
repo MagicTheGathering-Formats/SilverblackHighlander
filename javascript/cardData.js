@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Chatterstorm", points: 2, color: "g", group: "Storm" },
         { name: "Dark Ritual", points: 1, color: "b" },
         { name: "Demonic Tutor", points: 4, color: "b" },
+        { name: "Dragon's Rage Channeler", points: 1, color: "r" },
         { name: "Empty the Warrens", points: 3, color: "r", group: "Storm" },
         { name: "Enlightened Tutor", points: 2, color: "u" },
         { name: "Explore the Underdark", points: 2, color: "g", group: "Initiative" },
