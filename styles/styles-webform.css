@@ -6,7 +6,7 @@ form {
 
 /* CSS for input fields */
 input[type="text"],
-input[type="email"],
+/*input[type="email"],*/
 textarea {
     width: 100%;
     padding: 10px;
