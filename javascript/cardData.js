@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Reanimate", points: 1, color: "b" },
         { name: "Rilsa Rael, Kingpin", points: 3, color: "g", group: "Initiative" },
         { name: "Strip Mine", points: 4, color: "c" },
-        { name: "Sensei's Divining Top", points: 4, color: "c" },
+        { name: "Sensei's Divining Top", points: 1, color: "c" },
         { name: "Skullclamp", points: 3, color: "c" },
         { name: "Sol Ring", points: 4, color: "c" },
         { name: "Swords to Plowshares", points: 1, color: "w" },
