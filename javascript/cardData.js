@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Empty the Warrens", points: 3, color: "r", group: "Storm" },
         { name: "Enlightened Tutor", points: 2, color: "u" },
         { name: "Explore the Underdark", points: 2, color: "g", group: "Initiative" },
-        { name: "Fall from Favor", points: 2, color: "u" },
+        { name: "Fall from Favor", points: 1, color: "u" },
         { name: "Feywild Caretaker", points: 3, color: "u", group: "Initiative" },
         { name: "Force of Will", points: 1, color: "u" },
         { name: "Frantic Search", points: 1, color: "u" },
