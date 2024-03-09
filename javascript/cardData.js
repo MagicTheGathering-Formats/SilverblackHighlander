@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Mother of Runes", points: 2, color: "w" },
         { name: "Maze of Ith", points: 1, color: "c" },
         { name: "Passageway Seer", points: 3, color: "b", group: "Initiative" },
+        { name: "Price of Progress", points: 2, color: "r" },
         { name: "Reanimate", points: 1, color: "b" },
         { name: "Rilsa Rael, Kingpin", points: 3, color: "g", group: "Initiative" },
         { name: "Strip Mine", points: 4, color: "c" },
