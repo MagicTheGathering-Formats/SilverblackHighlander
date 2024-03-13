@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // data for the table
     var cardData = [
         { name: "Aarakocra Sneak", points: 3, color: "u", group: "Initiative" },
+        { name: "Aether Vial", points: 1, color: "c" },
         { name: "Ancient Tomb", points: 1, color: "c" },
         { name: "Bazaar of Baghdad", points: 4, color: "c" },
         { name: "Bloodboil Sorcerer", points: 3, color: "r", group: "Initiative" },
