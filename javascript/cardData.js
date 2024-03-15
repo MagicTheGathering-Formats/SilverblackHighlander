@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Gitaxian Probe", points: 1, color: "u" },
         { name: "Grapeshot", points: 2, color: "r", group: "Storm" },
         { name: "Gush", points: 1, color: "u" },
+        { name: "Gut, True Soul Zealot", points: 2, color: "r" },
         { name: "High Tide", points: 3, color: "u" },
         { name: "Hymn to Tourach", points: 1, color: "b" },
         { name: "Hunting Pack", points: 3, color: "g", group: "Storm" },
