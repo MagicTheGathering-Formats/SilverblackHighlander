@@ -1,1 +1,5 @@
-
+https://magicthegathering-formats.github.io/SilverblackHighlander/index.html
+https://magicthegathering-formats.github.io/SilverblackHighlander/html/rules.html
+https://magicthegathering-formats.github.io/SilverblackHighlander/html/points.html
+https://magicthegathering-formats.github.io/SilverblackHighlander/html/updates.html
+https://magicthegathering-formats.github.io/SilverblackHighlander/html/contact.html
